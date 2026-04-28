@@ -7,7 +7,8 @@
 
 # 中文版
 
-這是一個常駐在背景運行的自動化工具。它會持續監控您的系統剪貼簿，當偵測到您複製了新的圖片時，會自動將圖片傳送給 AI 模型進行視覺分析，並將分析結果直接推送到您指定的 Discord 頻道中。
+這是一個常駐在背景運行的自動化工具。它會持續監控您的系統剪貼簿，當偵測到您複製了新的圖片時，
+會自動將圖片傳送給 AI 模型進行視覺分析，並將分析結果直接推送到您指定的 Discord 頻道中。
 
 ## 💡 結構說明
 ```
@@ -176,5 +177,4 @@ Locate `return fallback_chain` at the bottom of `model_factory.py` and change it
 ```python
         # return fallback_chain (Comment out or delete this line)
         return github_4o # Return only the GitHub GPT-4o model
-```
 ```
